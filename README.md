@@ -231,3 +231,16 @@ FROM Hospital
 INNER JOIN Patient ON Hospital.Hospital_ID = Patient.Hospital_ID
 WHERE blood_type = 'A';
 ```
+
+
+## Conclusion
+
+We learned how to design a database from start to finish, such as creating an erd, logical design, and physical design.
+ What I found out interesting is that we can create entities relationships by analyzing requirements from the real blood donation system.
+And the most challenging part is drawing the relationship table for logical design because we need to consider if there is an association between 2 entities in a many-to-many relationship, then we need to create the new table to represent this relationship.
+
+If we can start over, we will add a blood testing organization to provide a screening of blood donors, because not every blood donor is eligible to donate blood. Some blood donors may have diseases, so their blood is also not healthy. This is not considered in our project. If we can start over, we will add a blood testing organization between the blood organization and the donor.
+![image](https://user-images.githubusercontent.com/79159894/184998888-85cd13d8-4566-4f7e-bcd6-27fe49f4a8ff.png)
+
+
+
