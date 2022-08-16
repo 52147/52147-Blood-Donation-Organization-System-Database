@@ -8,18 +8,19 @@ It is designed to create a database that links the blood bank to patients who ne
 
 
 ## Project Description
-In reality, the blood bank is not part of the hospital system, thus whenever a patient needs a blood transfusion, a database that contains related information is playing an important role in linking all roles there. 
-If time allows, the system will have a front end that allows administrators from all blood organizations to add the information of donors, hospitals, and other blood organizations. When the detailed information is updated to the system, administrators can access the system and find blood available in the particular location for the hospital’s patients.
+- In reality, the blood bank is not part of the hospital system, thus whenever a patient needs a blood transfusion, a database that contains related information is playing an important role in linking all roles there. 
+- If time allows, the system will have a front end that allows administrators from all blood organizations to add the information of donors, hospitals, and other blood organizations. When the detailed information is updated to the system, administrators can access the system and find blood available in the particular location for the hospital’s patients.
 
 ## Detailed Description
-Administrators from all Blood organizations and hospitals can log in to the system with their usernames and password to find nearby blood organizations for patient.
-After login, Administrators can add the information about the donor (name, phone number, address, blood type, blood quantity), patient (their name, phone, address, blood type, and medical report), other blood organization (name, phone number, location, and address), hospital (name, phone number, and address). In addition, Administrators can directly ask the donor to donate blood in an emergency. Also, Administrators can find the nearest location and quickly get the blood for the patient.
-Hospitals can add patients(name, phone, address, blood type, and medical report) in the system and find the blood organization for the patient.
+= Administrators from all Blood organizations and hospitals can log in to the system with their usernames and password to find nearby blood organizations for patient.
+- After login, Administrators can add the information about the donor (name, phone number, address, blood type, blood quantity), patient (their name, phone, address, blood type, and medical report), other blood organization (name, phone number, location, and address), hospital (name, phone number, and address). 
+- In addition, Administrators can directly ask the donor to donate blood in an emergency. Also, Administrators can find the nearest location and quickly get the blood for the patient.
+- Hospitals can add patients(name, phone, address, blood type, and medical report) in the system and find the blood organization for the patient.
 
-After blood donors donate blood, the blood will be sent to the hospital to check for infection, and the hospital will update the blood report in the system.
-The system will determine the priority of the patient and provide the nearby location with the fastest expiration date blood base on the blood report.
-After issuing the blood to the patient the blood report will update with patient name, date of use and add it to the customer profile.
-The blood report has the donated date, expired date, blood type, usability(no infection), quantity, location, organization, hospital name, donor information, and patient information. 
+- After blood donors donate blood, the blood will be sent to the hospital to check for infection, and the hospital will update the blood report in the system.
+- The system will determine the priority of the patient and provide the nearby location with the fastest expiration date blood base on the blood report.
+- After issuing the blood to the patient the blood report will update with patient name, date of use and add it to the customer profile.
+- The blood report has the donated date, expired date, blood type, usability(no infection), quantity, location, organization, hospital name, donor information, and patient information. 
 
 ##  Entity Relationship (ER) Diagram
 ![image](https://user-images.githubusercontent.com/79159894/184998022-679e9f1a-183c-4299-b209-9fb7dea92b8c.png)
@@ -240,7 +241,7 @@ We learned how to design a database from start to finish, such as creating an er
 And the most challenging part is drawing the relationship table for logical design because we need to consider if there is an association between 2 entities in a many-to-many relationship, then we need to create the new table to represent this relationship.
 
 If we can start over, we will add a blood testing organization to provide a screening of blood donors, because not every blood donor is eligible to donate blood. Some blood donors may have diseases, so their blood is also not healthy. This is not considered in our project. If we can start over, we will add a blood testing organization between the blood organization and the donor.
-![image](https://user-images.githubusercontent.com/79159894/184998888-85cd13d8-4566-4f7e-bcd6-27fe49f4a8ff.png)
+
 
 
 
