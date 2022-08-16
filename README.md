@@ -249,7 +249,9 @@ WHERE blood_type = 'A';
 
 ### Changes to the project along the way
 
-We initially wanted to design a platform in which hospitals could communicate with blood donation agencies about the blood type they needed, and patients could communicate with hospitals here. But we found it inconvenient for us to explain some of the relationships, such as the relationship between blood bank and blood organization. So we decided to cancel the design of the platform, and instead let the two roles that have a relationship with each other be connected individually.
+- We initially wanted to design a platform in which hospitals could communicate with blood donation agencies about the blood type they needed, and patients could communicate with hospitals here. 
+- But we found it inconvenient for us to explain some of the relationships, such as the relationship between blood bank and blood organization. 
+- So we decided to cancel the design of the platform, and instead let the two roles that have a relationship with each other be connected individually.
 
 
 
