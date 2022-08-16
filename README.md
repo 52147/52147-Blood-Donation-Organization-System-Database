@@ -237,13 +237,20 @@ WHERE blood_type = 'A';
 
 
 ## Conclusion
+### What our learned
 
 - We learned how to design a database from start to finish, such as creating an erd, logical design, and physical design.
 - What I found out interesting is that we can create entities relationships by analyzing requirements from the real blood donation system.
 - And the most challenging part is drawing the relationship table for logical design because we need to consider if there is an association between 2 entities in a many-to-many relationship, then we need to create the new table to represent this relationship.
+### What you would do differently if you could start over
 
 - If we can start over, we will add a blood testing organization to provide a screening of blood donors, because not every blood donor is eligible to donate blood.
 - Some blood donors may have diseases, so their blood is also not healthy. This is not considered in our project. If we can start over, we will add a blood testing organization between the blood organization and the donor.
+
+### Changes to the project along the way
+
+We initially wanted to design a platform in which hospitals could communicate with blood donation agencies about the blood type they needed, and patients could communicate with hospitals here. But we found it inconvenient for us to explain some of the relationships, such as the relationship between blood bank and blood organization. So we decided to cancel the design of the platform, and instead let the two roles that have a relationship with each other be connected individually.
+
 
 
 
