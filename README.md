@@ -1,4 +1,6 @@
 # Blood-Donation-Organization-System-Database
+![image](https://user-images.githubusercontent.com/79159894/184999868-39e56866-ff02-4d6f-83ed-0f0270d299ab.png)
+
 Contributed by Tianzhu Li, Kai Sun, ShouTzu Han, presented on August 10, 2022.
 
 
